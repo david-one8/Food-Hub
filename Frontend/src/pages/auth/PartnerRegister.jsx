@@ -21,7 +21,7 @@ const PartnerRegister = () => {
 
         <form onSubmit={(e)=>e.preventDefault()} className="auth-grid">
           <div className="field">
-            <label className="label" htmlFor="restaurantName">Restaurant name</label>
+            <label className="label" htmlFor="restaurantName">Business name</label>
             <input className="input" id="restaurantName" name="restaurantName" placeholder="Spice Villa" />
           </div>
 
@@ -48,7 +48,7 @@ const PartnerRegister = () => {
           </div>
 
           <div className="field">
-            <label className="label" htmlFor="password">Create password</label>
+            <label className="label" htmlFor="password">Password</label>
             <input className="input" id="password" name="password" type="password" placeholder="••••••••" autoComplete="new-password" />
           </div>
 
