@@ -27,12 +27,12 @@ const PartnerRegister = () => {
 
           <div className="row">
             <div className="field">
-              <label className="label" htmlFor="city">City</label>
+              <label className="label" htmlFor="city">Address</label>
               <input className="input" id="city" name="city" placeholder="Bengaluru" autoComplete="address-level2" />
             </div>
             <div className="field">
-              <label className="label" htmlFor="cuisine">Cuisine</label>
-              <input className="input" id="cuisine" name="cuisine" placeholder="North Indian, Chinese" />
+              <label className="label" htmlFor="Cuisine">Cuisine</label>
+              <input className="input" id="Cuisine" name="Cuisine" placeholder="North Indian, Chinese" />
             </div>
           </div>
 
