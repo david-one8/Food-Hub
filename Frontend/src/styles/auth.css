@@ -25,12 +25,12 @@ html, body {
 
 .auth-card {
   width: 100%;
-  max-width: 520px;
+  max-width: 570px;
   background: color-mix(in oklab, var(--color-surface) 96%, transparent);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
-  padding: clamp(20px, 4vw, 32px);
+  padding: clamp(14px, 3vw, 22px);
   transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base), opacity var(--transition-base);
   opacity: 0.999; /* hint for GPU */
   view-transition-name: auth-card;
