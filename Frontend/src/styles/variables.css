@@ -1,0 +1,57 @@
+/* Centralized theme variables with light/dark support via system settings */
+
+:root {
+  color-scheme: light dark;
+
+  /* colors - light default */
+  --color-bg: #f7f7f9;
+  --color-surface: #ffffff;
+  --color-text: #131416;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+  --color-primary: #6c5ce7; /* modern purple */
+  --color-primary-contrast: #ffffff;
+  --color-ring: rgba(108, 92, 231, 0.35);
+
+  /* radii, spacing, shadows, typography */
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.12);
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --transition-fast: 150ms ease;
+  --transition-base: 220ms ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0f1115;
+    --color-surface: #151821;
+    --color-text: #e5e7eb;
+    --color-muted: #9aa0aa;
+    --color-border: #232837;
+    --color-primary: #7c6df0;
+    --color-primary-contrast: #0f1115;
+    --color-ring: rgba(124, 109, 240, 0.45);
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.45);
+  }
+}
